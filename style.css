@@ -48,6 +48,21 @@ body {
     height: auto;
 }
 
+.logo-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo-text:hover {
+    color: #ff004f;
+}
+
+.nav-logo {
+    text-decoration: none;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -547,6 +562,17 @@ section {
 }
 
 .cert-card:hover {
+    background: #ff004f;
+    transform: translateY(-10px);
+}
+
+a.cert-card {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+a.cert-card:hover {
     background: #ff004f;
     transform: translateY(-10px);
 }
