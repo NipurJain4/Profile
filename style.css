@@ -940,6 +940,11 @@ footer p {
 }
 
 @media (max-width: 768px) {
+    #hero {
+        background-image: none;
+        background-color: #080808;
+    }
+
     .menu-toggle {
         display: block;
     }
